@@ -2,6 +2,7 @@
 
 const sendToken=  (user,statuscode,res) => {
 
+    console.log(user , statuscode , res)
     const token =  user.getJWTToken()
 
     const options = {

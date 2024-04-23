@@ -4,7 +4,7 @@ const Errorhandler = require('../utills/errorHandler')
 const catchAsyceError = require('../middleware/catchAsyncError');
 const { off } = require('../models/orderModel');
 
-git@github.com:PoojaGadara/E-commerce-Website.git
+//git@github.com:PoojaGadara/E-commerce-Website.git
 
 //Create New Order
 exports.newOrder = catchAsyceError(async(req,res,next)=>{

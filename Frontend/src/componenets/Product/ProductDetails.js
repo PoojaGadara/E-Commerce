@@ -9,6 +9,7 @@ import ReactStars from 'react-rating-stars-component';
 import ReviewCard from './ReviewCard';
 import Loader from '../layout/Loader/loader'
 import {useAlert} from "react-alert"
+import MetaData from '../layout/metadata'
 
 
 export default function ProductDetails() {
@@ -42,7 +43,7 @@ export default function ProductDetails() {
             <Loader />
           ):(
             <Fragment>
-            
+            <MetaData title={`${product.name} -- ECOMMERCE`}/>
           <div className="ProductDetails">
             <div>
               <Carousel>
