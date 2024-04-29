@@ -1,5 +1,5 @@
-E-Commerce Project
-
+**E-Commerce Project
+**
 Welcome to our E-Commerce project repository! This project is aimed at providing a robust and scalable e-commerce solution, built using modern web technologies. Whether you're a developer looking to contribute or a business owner interested in leveraging our platform, we hope this README provides you with all the information you need to get started.
 
 Table of Contents
@@ -22,18 +22,10 @@ Responsive Design: Optimized for various devices to ensure a consistent experien
 Installation
 To run the E-Commerce project locally, follow these steps:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/e-commerce-project.git
-Navigate to the project directory:
-bash
-Copy code
-cd e-commerce-project
-Install dependencies:
-bash
-Copy code
+Clone the repository
+
 npm install
+
 Set up environment variables:Create a .env file in the root directory and add the necessary environment variables such as database connection strings and API keys.
 Start the development server:
 bash
